@@ -1,6 +1,6 @@
 const inquirer = require('inquirer');
-// const fs = require('fs');
-// const generatePage = require('./src/page-template');
+ const fs = require('fs');
+ const generatePage = require('./src/page-template');
 // const inquirer = require('no')
 // 
 // const pageHTML = generatePage(name, github);
@@ -44,7 +44,7 @@ const promptUser = () => {
           return false;
         }
       }
-    }
+    },
     
     
     {
